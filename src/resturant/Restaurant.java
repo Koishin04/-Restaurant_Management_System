@@ -15,7 +15,6 @@ public class Restaurant {
     public String getLocation() {
         return location;
     }
-
     public void setLocation(String location) {
         this.location = location;
     }
@@ -25,8 +24,9 @@ public class Restaurant {
         return title;
     }
 
-    public void setPrice(String place, float quantity) {
-        this.title = place;
+    public void setTitle(String title) {
+
+        this.title = title;
     }
 
 

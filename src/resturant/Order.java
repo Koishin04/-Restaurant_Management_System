@@ -3,16 +3,22 @@ package resturant;
 public class Order {
     private int place;
     private int check;
+
+
     public Order(int place, int check) {
         this.place = place;
         this.check = check;
     }
+
+
     public int getPlace() {
         return place;
     }
     public void setPlace(int place) {
         this.place = place;
     }
+
+
     public int getCheck() {
         return check;
     }
